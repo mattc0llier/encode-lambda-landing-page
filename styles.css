@@ -65,14 +65,19 @@ header {
   border-left: 1px solid grey;
 }
 
-.img-main img {
+/* .img-main img {
   max-width: 100%;
   height: auto;
-}
+} */
 
 main {
   padding: 40px 0 40px 0;
   margin: 20px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
 }
 
 .social {
@@ -94,29 +99,9 @@ main {
   padding-bottom: 40px;
 }
 
-.articles {
-  margin: 20px;
+.benefits {
   display: flex;
-  flex-direction: column;
-}
-
-.articles article {
-  border-top: 0.5px solid grey;
-  padding: 1em 1em 1em 1em;
-}
-
-.articles article:first-child {
-  border-top: 0px solid grey;
-}
-
-article h3 {
-  decoration: bold;
-}
-
-article img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+  justify-content: space-between;
 }
 
 /*footer*/
