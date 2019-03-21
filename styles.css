@@ -4,7 +4,8 @@
   --bg-color: #fff;
   --text-color: #000;
   --highlight-color: #000;
-  --link-color: blue;
+  --headline-color: #3424AC;
+  --link-color: #3424AC;
 }
 
 body,
@@ -31,9 +32,12 @@ h4 {
 }
 h1 {
   font-size: 3rem;
+  color: var(--headline-color);
+  font-weight: 600
 }
 h2 {
   font-size: 2rem;
+  color: var(--headline-color);
 }
 h3 {
   font-size: 1.5rem;
@@ -121,10 +125,16 @@ main {
   background-color: var(--link-color);
 }
 
+.screenshot {
+  width: auto;
+  height: 400px;
+}
+
 /*footer*/
-footer .container {
-  padding: 2rem 0;
-  border-top: 2px solid black;
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: grey
 }
 
 @media (min-width: 900px) {
