@@ -32,13 +32,13 @@ h4 {
   color: #2c3e50;
 }
 h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: var(--headline-color);
   font-weight: 600
 }
 h2 {
   font-size: 2rem;
-  color: var(--headline-color);
+  color: var(--title-color);
 }
 h3 {
   font-size: 1.5rem;
@@ -124,12 +124,17 @@ main {
 
 .email-capture {
   text-align: center;
-  background-color: var(--link-color);
+  /* background-color: var(--link-color); */
 }
 
 .screenshot {
   width: auto;
   height: 400px;
+}
+
+.email {
+  width: 200px;
+  height: auto;
 }
 
 /*footer*/
