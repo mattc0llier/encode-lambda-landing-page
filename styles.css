@@ -139,6 +139,10 @@ main {
   height: auto;
 }
 
+.button {
+  background-color: var(--title-color);
+}
+
 /*footer*/
 footer {
   padding: 1rem;
