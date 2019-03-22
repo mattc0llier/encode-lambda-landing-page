@@ -5,6 +5,7 @@
   --text-color: #000;
   --highlight-color: #000;
   --headline-color: #3424AC;
+  --title-color: #FF6363;
   --link-color: #3424AC;
 }
 
@@ -31,7 +32,7 @@ h4 {
   color: #2c3e50;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: var(--headline-color);
   font-weight: 600
 }
@@ -44,8 +45,9 @@ h3 {
   padding: 5px 0 5px 0;
 }
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
+  color: var(--title-color);
 }
 
 b {
@@ -63,7 +65,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 header {
