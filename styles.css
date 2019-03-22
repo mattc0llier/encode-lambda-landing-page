@@ -125,7 +125,8 @@ main {
 .email-capture {
   text-align: center;
   /* background-color: var(--link-color); */
-  margin-top: 1.5rem
+  padding: 1rem;
+  border: 2px solid var(--link-color);
 }
 
 .screenshot {
