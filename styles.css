@@ -44,12 +44,14 @@ h1 {
   color: var(--headline-color);
   font-weight: 900;
   font-family: 'Exo', sans-serif;
+  max-width: 300px;
 }
 h2 {
   font-size: 1.5rem;
   color: var(--color-bg-text-color);
   font-family: 'Exo', sans-serif;
   font-weight: 800;
+  margin-top: 3rem;
 }
 h3 {
   font-size: 1.2rem;
@@ -81,17 +83,12 @@ p {
 }
 
 main {
-  padding: 10px 0 40px 0;
+  padding: 10px 0 0 0;
 }
 
 .email {
   width: 200px;
   height: auto;
-}
-
-.button {
-  background-color: var(--title-color);
-  font-family:
 }
 
 .hero {
@@ -130,13 +127,37 @@ main {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
 }
 
 .logos img {
-  height: 30px;
   width: auto;
+  height: auto;
   padding-left: 0px;
   padding-top: 0px;
+}
+
+.logos h4 {
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.logo {
+  width: 150px;
+  height: 60px;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lambda-logo {
+  padding-top: 10px;
+}
+
+#encode-logo {
+
 }
 
 .concentrate {
@@ -217,18 +238,34 @@ button {
   padding: 8px 12px 8px 12px;
   text-align: center;
   color: white;
-  margin-top: 20px
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px 0px rgba(73, 103, 255, 0.1), 1px 2px 3px rgba(63, 37, 127, 0.2);
+  border: none;
 }
 
-button .primary {
+.secondary {
+  background-color: var(--secondary-button);
+  color: var(--highlight-color);
+}
+
+#mc-embedded-subscribe {
+  font-family: 'Exo', sans-serif;
+  border-radius: 5px;
   background-color: var(--primary-button);
+  height: auto;
+  padding: 8px 12px 8px 12px;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px 0px rgba(73, 103, 255, 0.1), 1px 2px 3px rgba(63, 37, 127, 0.2);
+  border: none;
 }
 /*footer*/
-footer {
+/* footer {
   padding: 1rem;
   text-align: center;
-  color: grey
-}
+  color: grey;
+} */
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
   .app {
