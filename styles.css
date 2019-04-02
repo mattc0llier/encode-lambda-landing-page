@@ -21,6 +21,8 @@ html {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  scroll-behavior: smooth;
 }
 
 .app {
@@ -61,7 +63,7 @@ h3 {
 h4 {
   font-size: 1.2rem;
   font-weight: 700;
-  color: var(--title-color);
+  color: var(--headline-color);
 }
 
 b {
@@ -259,6 +261,14 @@ button {
   margin-top: 20px;
   box-shadow: 2px 2px 4px 0px rgba(73, 103, 255, 0.1), 1px 2px 3px rgba(63, 37, 127, 0.2);
   border: none;
+}
+
+ul {
+  margin-top: 2rem;
+}
+
+li {
+  margin: 1rem 0 1rem 0;
 }
 /*footer*/
 /* footer {
