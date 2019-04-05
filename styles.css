@@ -163,6 +163,7 @@ p {
 
 #lambda-logo {
   padding-top: 10px;
+  padding-right: 10px;
 }
 
 #encode-logo {
@@ -357,7 +358,7 @@ li {
 
   .responsive-margin {
     min-width: 400px;
-    max-width: 651px;
+    max-width: 675px;
     margin-top: 4rem;
   }
 
@@ -433,7 +434,6 @@ li {
 
   .context img {
     height: 420px;
-    padding-bottom: 0px;
   }
 }
 
