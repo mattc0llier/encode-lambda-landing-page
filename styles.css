@@ -418,7 +418,7 @@ li {
 
   .features-right {
     display: flex;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
   }
 
   .features-right img {
@@ -428,9 +428,9 @@ li {
     padding: 44px;
   }
 
-  .capture-titles {
+  /* .capture-titles {
     text-align: right;
-  }
+  } */
 
   .context img {
     height: 420px;
