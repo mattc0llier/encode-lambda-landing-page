@@ -397,12 +397,13 @@ li {
   .screenshot {
     display: flex;
     justify-content: center;
-    min-height: 30rem;
     padding: 3rem 0 2rem 0;
   }
 
   #screenshot {
     max-height: none;
+    height: 100%;
+    min-height: none;
   }
 
   .features-left {
@@ -444,7 +445,7 @@ li {
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1025px) {
   #screenshot {
     width: auto;
   }
