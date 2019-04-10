@@ -167,21 +167,17 @@ p {
 }
 
 #encode-logo {
-
 }
 
-/* .mock-up {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.screenshot {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
-.mock-up img {
-  padding: 2rem;
-  width: 60vw;
-  height: 35vw;
-  max-height: 30rem;
-} */
+#screenshot{
+  max-height: none;
+  width: 100%;
+}
 
 .concentrate {
   background-color: var(--headline-color);
@@ -448,6 +444,8 @@ li {
   }
 }
 
-@media (min-width: 900px) {
-
+@media (min-width: 1000px) {
+  #screenshot {
+    width: auto;
+  }
 }
