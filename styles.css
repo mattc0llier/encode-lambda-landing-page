@@ -107,7 +107,7 @@ img {
 .hero {
   display: flex;
   margin: 5rem 0 2rem 0;
-  align-items: baseline;
+  align-items: start;
 }
 
 .cta {
@@ -158,6 +158,10 @@ img {
   justify-content: center;
 }
 
+.button-cta p {
+  text-align: center;
+}
+
 button {
   font-family: 'Exo', sans-serif;
   font-size: 1rem;
@@ -174,10 +178,16 @@ button {
   outline: none;
   cursor: pointer;
   text-decoration: none;
+  width: 100%;
 }
 
 button:hover {
   text-decoration: none;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
 }
 
 .numberCircle {
