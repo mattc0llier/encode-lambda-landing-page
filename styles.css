@@ -264,6 +264,11 @@ footer {
     flex-direction: row;
   }
 
+  #matt-profile {
+    width: 100%;
+    height: auto;
+  }
+
 }
 
 @media (min-width: 1025px) {
