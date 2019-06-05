@@ -92,6 +92,12 @@ img {
   height: auto;
 }
 
+@media only screen and (min-width: 650px) {
+
+.mobile {
+  display: none;
+}
+
 #encode-logo {
   max-width: 200px;
   margin: 0 0 0 1rem;
@@ -236,38 +242,20 @@ footer {
   color: grey;
 }
 
-@media only screen and (min-width: 426px) {
-  .app {
-  }
+#matt-profile {
+  width: 100%;
+  height: auto;
+}
 
-  main {
-    /* padding: 10px 0 40px 0;
-    margin: 0px; */
-  }
+.cta {
+  display: flex;
+  flex-direction: row;
+}
 
-  h1 {
-  }
-
-  section {
-    /* margin: 0 auto 0 auto;
-    display: flex;
-    justify-content: center; */
-  }
-
-  .cta {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .value-prop {
-    display: flex;
-    flex-direction: row;
-  }
-
-  #matt-profile {
-    width: 100%;
-    height: auto;
-  }
+.value-prop {
+  display: flex;
+  flex-direction: row;
+}
 
 }
 
