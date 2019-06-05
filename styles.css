@@ -169,6 +169,13 @@ img {
   padding-top: 0.5rem;
 }
 
+.win {
+  margin-bottom: 2rem;
+}
+.win p {
+  margin-bottom: 0;
+}
+
 button {
   font-family: 'Exo', sans-serif;
   font-size: 1rem;
